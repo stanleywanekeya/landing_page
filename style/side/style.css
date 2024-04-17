@@ -1,0 +1,53 @@
+body {
+	background-color: lightblue;
+	margin: 0;
+}
+div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 20px;
+}
+
+#homepic {
+	width: 1000px;
+	margin-bottom: 50px;
+	border: none;
+}
+
+#explorepic {
+	width: 1000px;
+	margin-bottom: 50px;
+	border: none
+}
+#profilepic {
+	width: 1000px;
+	margin-bottom: 50px;
+	border: none;
+}
+
+.read {
+	width: 500px;
+	height: 500px;
+	margin-top: 100px;
+	padding-top: 100px;
+}
+
+.header {
+	border-bottom: 1px solid black;
+	background-color: grey;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
